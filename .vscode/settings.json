@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/home/daniel/.virtualenvs/dive-django/bin/python"
+    "python.pythonPath": "/home/daniel/.virtualenvs/dive-django/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
 }
