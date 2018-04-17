@@ -18,3 +18,9 @@ Simple form processing and use generic views
 Introducing automated testing
 Add a stylesheet
 Customize the admin
+
+resources used:
+http://levipy.com/virtualenv-and-virtualenvwrapper-tutorial/
+https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
+
+Daniel
