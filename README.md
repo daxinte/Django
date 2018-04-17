@@ -8,19 +8,19 @@ An admin site that lets you add, change, and delete polls.
 I use Virtualenv to create isolated Python environments.
 And this is inside:
 
-1.Creating a project
-2.Creating the Polls app
-3.Database setup (PostgreSQL)
-4.Creating models
-5.Playing with the API
-6.Public interface – “views.”
-7.Simple form processing and use generic views
-8.Introducing automated testing
-9.Add a stylesheet
-10.Customize the admin
+1.Creating a project<br />
+2.Creating the Polls app<br />
+3.Database setup (PostgreSQL)<br />
+4.Creating models<br />
+5.Playing with the API<br />
+6.Public interface – “views.”<br />
+7.Simple form processing and use generic views<br />
+8.Introducing automated testing<br />
+9.Add a stylesheet<br />
+10.Customize the admin<br />
 
 resources used:
-(http://levipy.com/virtualenv-and-virtualenvwrapper-tutorial/)
-(https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04)
+http://levipy.com/virtualenv-and-virtualenvwrapper-tutorial/
+https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
 
 Daniel
