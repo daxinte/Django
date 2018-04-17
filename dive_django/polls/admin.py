@@ -21,4 +21,5 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ('question_text', 'pub_date', 'was_published_recently')
     list_filter = ['pub_date']
     search_fields = ['question_text']
+    readonly_fields = ('pub_date', )
 admin.site.register(Question, QuestionAdmin)  # noqa: E305
