@@ -36,7 +36,7 @@ class QuestionModelTests(TestCase):
         now = timezone.now()
         pub_date = now - datetime.timedelta(hours=23)
         recent_question = Question(pub_date=pub_date)
-        self.assertIs(recent_question.was_published_recently(ref_point=now), True)
+        self.assertTrue(recent_question.was_published_recently(ref_point=now))
 
 
 class QuestionIndexViewTests(TestCase):
