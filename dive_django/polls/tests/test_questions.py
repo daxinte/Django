@@ -28,6 +28,16 @@ class QuestionModelTests(TestCase):
         old_question = Question(pub_date=pub_date)
         self.assertIs(old_question.was_published_recently(ref_point=now), False)
 
+    def test_was_published_recently_with_recent_question(self):
+        """
+        was_published_recently() returns True for questions whose pub_date
+        is less than or equal to 1 day.
+        """
+        now = timezone.now()
+        pub_date = now - datetime.timedelta(hours=23)
+        recent_question = Question(pub_date=pub_date)
+        self.assertTrue(recent_question.was_published_recently(ref_point=now))
+
 
 class QuestionIndexViewTests(TestCase):
     def test_no_questions(self):
